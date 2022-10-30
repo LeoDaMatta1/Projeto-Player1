@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Player1.MainPage"
+             xmlns:local="clr-namespace:Player1"
+             BackgroundImageSource="https://i.imgur.com/VifsISB.png">
+
+    <StackLayout>
+        <Frame WidthRequest="338" HeightRequest="338"
+               BackgroundColor="White" Padding="0"
+               HasShadow="True" Margin="35" CornerRadius="200"
+               HorizontalOptions="CenterAndExpand">
+            <Image Source="https://i.imgur.com/A94emNE.png" Aspect="AspectFill"/>
+        </Frame>
+
+        <Label Text="Olá Player1 &#10; Seu Lugar é aqui" TextColor="White" FontSize="34" FontAttributes="Bold" Margin="15" HorizontalTextAlignment="Center"/>
+
+        <Label Text="Noticias de seus jogos &#10; favoritos." TextColor="White" FontSize="16" FontAttributes="Bold" Margin="15" HorizontalTextAlignment="Center"/>
+
+        <Button Text="Login" CornerRadius="20" 
+                TextColor="White" 
+                HeightRequest="40" 
+                WidthRequest="160" 
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Button_Clicked"
+                BackgroundColor="#19191B"
+                BorderColor="#09FBD3"
+                BorderWidth="3"
+                Margin="30">
+        </Button>
+    </StackLayout>
+
+
+</ContentPage>
